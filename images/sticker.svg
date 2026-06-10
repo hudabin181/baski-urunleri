@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#f1f5f9"/>
+  <g transform="rotate(-8 200 150)">
+    <rect x="110" y="80" width="180" height="140" rx="16" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+    <rect x="120" y="90" width="160" height="120" rx="12" fill="#4f46e5" opacity="0.9"/>
+    <text x="200" y="155" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="20" font-weight="700">STICKER</text>
+    <path d="M290 80 L310 60 L310 100 L290 100 Z" fill="#e2e8f0"/>
+  </g>
+  <g transform="rotate(12 280 200)">
+    <circle cx="280" cy="200" r="40" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+    <circle cx="280" cy="200" r="30" fill="#25d366" opacity="0.9"/>
+    <text x="280" y="206" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="12" font-weight="600"></text>
+  </g>
+  <g transform="rotate(-15 120 210)">
+    <rect x="70" y="185" width="70" height="50" rx="8" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="105" y="218" text-anchor="middle" fill="#4f46e5" font-family="Inter, sans-serif" font-size="11" font-weight="600">LOGO</text>
+  </g>
+</svg>

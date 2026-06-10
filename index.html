@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Baskı Atölyesi — Kişiye özel kupa, tişört, kanvas tablo ve sticker baskı. 500+ mutlu müşteri, hızlı teslimat, WhatsApp ile kolay sipariş.">
+  <meta name="keywords" content="baskı, kupa baskı, tişört baskı, kanvas tablo, sticker, özel tasarım">
+  <title>Baskı Atölyesi | Profesyonel Özel Baskı Ürünleri</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="logo">
+        <span class="logo-icon">B</span>
+        <span class="logo-text">Baskı Atölyesi</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menüyü aç/kapat" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#urunler" class="nav-link">Ürünler</a></li>
+        <li><a href="#hakkimizda" class="nav-link">Hakkımızda</a></li>
+        <li><a href="#yorumlar" class="nav-link">Yorumlar</a></li>
+        <li><a href="#sss" class="nav-link">SSS</a></li>
+        <li><a href="#iletisim" class="nav-link">İletişim</a></li>
+        <li>
+          <a href="#" class="btn btn-whatsapp btn-sm" id="headerWhatsapp">
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Sipariş Ver
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-bg"></div>
+      <div class="container hero-content">
+        <span class="hero-badge">2018'den Beri Güvenilir Baskı Hizmeti</span>
+        <h1 class="hero-title">Özel Baskı Ürünlerinde<br><span>Türkiye'nin Güvenilir Adresi</span></h1>
+        <p class="hero-desc">Kupa, tişört, kanvas tablo ve sticker ürünlerinde profesyonel baskı kalitesi. Tasarımınızı gönderin, 3-5 iş gününde kapınıza gelsin.</p>
+        <div class="hero-actions">
+          <a href="#urunler" class="btn btn-primary">Ürünleri İncele</a>
+          <a href="#" class="btn btn-whatsapp" id="heroWhatsapp">
+            <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            WhatsApp'tan Sipariş
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <strong>500+</strong>
+            <span>Mutlu Müşteri</span>
+          </div>
+          <div class="stat">
+            <strong>2.000+</strong>
+            <span>Tamamlanan Sipariş</span>
+          </div>
+          <div class="stat">
+            <strong>%98</strong>
+            <span>Memnuniyet Oranı</span>
+          </div>
+          <div class="stat">
+            <strong>3-5 Gün</strong>
+            <span>Teslimat Süresi</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Güven Rozetleri -->
+    <section class="trust-bar">
+      <div class="container trust-grid">
+        <div class="trust-item">
+          <div class="trust-icon">🛡️</div>
+          <div>
+            <strong>Güvenli Alışveriş</strong>
+            <span>Ödeme sonrası üretim</span>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">🚚</div>
+          <div>
+            <strong>Hızlı Kargo</strong>
+            <span>Türkiye geneli teslimat</span>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">✅</div>
+          <div>
+            <strong>Kalite Garantisi</strong>
+            <span>Baskı önizlemesi onayı</span>
+          </div>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon">💬</div>
+          <div>
+            <strong>7/24 Destek</strong>
+            <span>WhatsApp ile ulaşın</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Ürünler -->
+    <section class="section" id="urunler">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Koleksiyonumuz</span>
+          <h2 class="section-title">Ürün Kategorileri</h2>
+          <p class="section-desc">Her ürün kişiye özel baskı ile hazırlanır. Tasarımınızı gönderin, gerisini biz halledelim.</p>
+        </div>
+
+        <div class="products-grid">
+          <article class="product-card" data-product="Kupa">
+            <div class="product-image">
+              <img src="images/kupa.svg" alt="Özel baskılı kupa" loading="lazy">
+              <span class="product-badge">En Çok Satan</span>
+            </div>
+            <div class="product-body">
+              <h3 class="product-title">Kupa</h3>
+              <p class="product-desc">Seramik kupalar üzerine yüksek kaliteli sublimasyon baskı. Hediye veya kişisel kullanım için ideal.</p>
+              <ul class="product-features">
+                <li>350 ml kapasite</li>
+                <li>Bulaşık makinesine uygun</li>
+                <li>Canlı ve kalıcı renkler</li>
+              </ul>
+              <a href="#" class="btn btn-whatsapp btn-block product-order">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                WhatsApp ile Sipariş
+              </a>
+            </div>
+          </article>
+
+          <article class="product-card" data-product="Tişört">
+            <div class="product-image">
+              <img src="images/tisort.svg" alt="Özel baskılı tişört" loading="lazy">
+            </div>
+            <div class="product-body">
+              <h3 class="product-title">Tişört</h3>
+              <p class="product-desc">%100 pamuklu tişörtlere DTG veya transfer baskı. Logo, fotoğraf veya özel tasarımınızı giyin.</p>
+              <ul class="product-features">
+                <li>S - XXL beden seçenekleri</li>
+                <li>Dayanıklı ve solmaz baskı</li>
+                <li>Çoklu renk seçeneği</li>
+              </ul>
+              <a href="#" class="btn btn-whatsapp btn-block product-order">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                WhatsApp ile Sipariş
+              </a>
+            </div>
+          </article>
+
+          <article class="product-card" data-product="Kanvas Tablo">
+            <div class="product-image">
+              <img src="images/kanvas.svg" alt="Özel baskılı kanvas tablo" loading="lazy">
+              <span class="product-badge">Yeni</span>
+            </div>
+            <div class="product-body">
+              <h3 class="product-title">Kanvas Tablo</h3>
+              <p class="product-desc">Duvarlarınızı süsleyen premium kanvas tablolar. Fotoğraf, sanat eseri veya özel tasarım baskısı.</p>
+              <ul class="product-features">
+                <li>30x40, 40x60, 50x70 cm</li>
+                <li>Ahşap çerçeveli</li>
+                <li>Mat veya parlak yüzey</li>
+              </ul>
+              <a href="#" class="btn btn-whatsapp btn-block product-order">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                WhatsApp ile Sipariş
+              </a>
+            </div>
+          </article>
+
+          <article class="product-card" data-product="Sticker">
+            <div class="product-image">
+              <img src="images/sticker.svg" alt="Özel baskılı sticker" loading="lazy">
+            </div>
+            <div class="product-body">
+              <h3 class="product-title">Sticker</h3>
+              <p class="product-desc">Su geçirmez vinil stickerlar. Laptop, araç, cam ve daha fazlası için özel kesim seçenekleri.</p>
+              <ul class="product-features">
+                <li>Mat veya parlak vinil</li>
+                <li>Özel şekil kesim</li>
+                <li>Dış mekan dayanıklılığı</li>
+              </ul>
+              <a href="#" class="btn btn-whatsapp btn-block product-order">
+                <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                WhatsApp ile Sipariş
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hakkımızda -->
+    <section class="section section-alt" id="hakkimizda">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Hakkımızda</span>
+          <h2 class="section-title">Baskı Atölyesi Kimdir?</h2>
+          <p class="section-desc">2018 yılından bu yana İstanbul merkezli atölyemizde kişiye özel baskı ürünleri üretiyoruz.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-content">
+            <p class="about-lead">Müşterilerimizin hayallerindeki tasarımları gerçeğe dönüştürmek için kurulduk. Küçük bir atölyeden başlayan yolculuğumuzda bugün Türkiye'nin dört bir yanına binlerce sipariş gönderiyoruz.</p>
+            <p>Kurumsal firmalardan bireysel müşterilere, düğün hediyelerinden okul etkinliklerine kadar geniş bir yelpazede hizmet veriyoruz. Her siparişe aynı özeni gösteriyor, baskı önizlemesini onayınıza sunmadan üretime başlamıyoruz.</p>
+
+            <div class="about-values">
+              <div class="value-card">
+                <span class="value-icon">🎯</span>
+                <h4>Misyonumuz</h4>
+                <p>Her müşteriye ulaşılabilir fiyatlarla profesyonel baskı kalitesi sunmak.</p>
+              </div>
+              <div class="value-card">
+                <span class="value-icon">👁️</span>
+                <h4>Vizyonumuz</h4>
+                <p>Türkiye'nin en güvenilir kişiye özel baskı markası olmak.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-side">
+            <div class="about-stats-grid">
+              <div class="about-stat">
+                <strong>8+</strong>
+                <span>Yıllık Deneyim</span>
+              </div>
+              <div class="about-stat">
+                <strong>2.000+</strong>
+                <span>Tamamlanan Sipariş</span>
+              </div>
+              <div class="about-stat">
+                <strong>500+</strong>
+                <span>Mutlu Müşteri</span>
+              </div>
+              <div class="about-stat">
+                <strong>%98</strong>
+                <span>Memnuniyet Oranı</span>
+              </div>
+            </div>
+
+            <div class="process-steps">
+              <h3>Sipariş Süreci</h3>
+              <div class="step">
+                <span class="step-num">1</span>
+                <div>
+                  <strong>Tasarımınızı Gönderin</strong>
+                  <p>WhatsApp üzerinden görselinizi veya fikrinizi paylaşın.</p>
+                </div>
+              </div>
+              <div class="step">
+                <span class="step-num">2</span>
+                <div>
+                  <strong>Önizleme &amp; Onay</strong>
+                  <p>Baskı önizlemesini inceleyin, onayladıktan sonra üretime geçelim.</p>
+                </div>
+              </div>
+              <div class="step">
+                <span class="step-num">3</span>
+                <div>
+                  <strong>Üretim &amp; Kargo</strong>
+                  <p>3-5 iş günü içinde ürününüz kargoya verilir.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="features-row">
+          <div class="feature-box">
+            <div class="feature-icon-lg">🏭</div>
+            <h4>Profesyonel Üretim</h4>
+            <p>Endüstriyel kalitede baskı makineleri ve deneyimli ekibimizle çalışıyoruz.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon-lg">🔍</div>
+            <h4>Kalite Kontrol</h4>
+            <p>Her ürün gönderilmeden önce detaylı kalite kontrolünden geçer.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon-lg">📦</div>
+            <h4>Güvenli Paketleme</h4>
+            <p>Ürünleriniz hasar görmeden ulaşması için özel ambalaj kullanıyoruz.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon-lg">🤝</div>
+            <h4>Müşteri Odaklı</h4>
+            <p>Sipariş öncesi ve sonrası WhatsApp desteği ile yanınızdayız.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Müşteri Yorumları -->
+    <section class="section" id="yorumlar">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Müşteri Yorumları</span>
+          <h2 class="section-title">Müşterilerimiz Ne Diyor?</h2>
+          <p class="section-desc">Gerçek müşterilerimizden gelen yorumlar. Siz de deneyiminizi bizimle paylaşın.</p>
+          <div class="rating-summary">
+            <div class="stars" aria-label="5 üzerinden 4.9 puan">★★★★★</div>
+            <span><strong>4.9</strong> / 5 — 120+ değerlendirme</span>
+          </div>
+        </div>
+
+        <div class="reviews-grid">
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 yıldız">★★★★★</div>
+            <p class="review-text">"Eşimin doğum günü için özel tasarım kupa sipariş ettim. Baskı kalitesi harika, renkler tam istediğim gibi çıktı. 4 günde elime ulaştı, çok memnun kaldık!"</p>
+            <div class="review-author">
+              <div class="review-avatar">AY</div>
+              <div>
+                <strong>Ayşe Yılmaz</strong>
+                <span>Kupa Siparişi — İstanbul</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 yıldız">★★★★★</div>
+            <p class="review-text">"Şirket etkinliği için 50 adet tişört bastırdık. Logo baskısı çok net, kumaş kalitesi de iyi. Toplu siparişlerde fiyat avantajı sağladılar. Kesinlikle tavsiye ederim."</p>
+            <div class="review-author">
+              <div class="review-avatar">MK</div>
+              <div>
+                <strong>Mehmet Kaya</strong>
+                <span>Kurumsal Tişört — Ankara</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 yıldız">★★★★★</div>
+            <p class="review-text">"Çocuğumun fotoğrafını kanvas tabloya bastırdım. Duvara astığımızda inanılmaz güzel durdu. Önizleme göndermeleri çok profesyonelce, güvenle sipariş verebilirsiniz."</p>
+            <div class="review-author">
+              <div class="review-avatar">ZD</div>
+              <div>
+                <strong>Zeynep Demir</strong>
+                <span>Kanvas Tablo — İzmir</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 yıldız">★★★★★</div>
+            <p class="review-text">"Aracıma özel sticker yaptırdım. Dış mekanda 6 aydır duruyor, hiç solmadı veya kabarmadı. WhatsApp'tan iletişim çok hızlı, sorularıma anında cevap verdiler."</p>
+            <div class="review-author">
+              <div class="review-avatar">CÖ</div>
+              <div>
+                <strong>Can Öztürk</strong>
+                <span>Sticker — Bursa</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 yıldız">★★★★★</div>
+            <p class="review-text">"Düğün hediyesi olarak 80 kupa bastırdık. Misafirlerimiz çok beğendi! Paketleme özenliydi, hiçbir kupa kırılmadan geldi. Teşekkürler Baskı Atölyesi!"</p>
+            <div class="review-author">
+              <div class="review-avatar">EA</div>
+              <div>
+                <strong>Elif Arslan</strong>
+                <span>Toplu Kupa — Antalya</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="review-card">
+            <div class="review-stars" aria-label="5 yıldız">★★★★★</div>
+            <p class="review-text">"İlk kez online baskı siparişi verdim, biraz tereddütlüydüm ama sonuç mükemmeldi. Fiyat-performans açısından çok iyi. Artık tüm baskı ihtiyaçlarım için burayı tercih ediyorum."</p>
+            <div class="review-author">
+              <div class="review-avatar">BT</div>
+              <div>
+                <strong>Burak Tekin</strong>
+                <span>Tişört &amp; Sticker — Konya</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SSS -->
+    <section class="section section-alt" id="sss">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Sık Sorulan Sorular</span>
+          <h2 class="section-title">Merak Ettikleriniz</h2>
+          <p class="section-desc">Sipariş süreci, teslimat ve ürünler hakkında en çok sorulan soruların cevapları.</p>
+        </div>
+
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Nasıl sipariş verebilirim?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 16l-6-6h12z"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>WhatsApp butonuna tıklayarak bize ulaşabilirsiniz. Tasarımınızı veya fikrinizi gönderin, ürün detaylarını birlikte belirleyelim. Size fiyat teklifi ve baskı önizlemesi sunuyoruz. Onayınızın ardından üretime başlıyoruz.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Teslimat süresi ne kadar?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 16l-6-6h12z"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Standart siparişler 3-5 iş günü içinde kargoya verilir. Toplu siparişlerde (50+ adet) süre sipariş detayına göre değişebilir; bu durumda size önceden bilgi verilir. Türkiye geneline kargo ile teslimat yapıyoruz.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Hangi dosya formatlarını kabul ediyorsunuz?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 16l-6-6h12z"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>PNG, JPG, PDF ve AI (Adobe Illustrator) formatlarını kabul ediyoruz. En iyi sonuç için tasarımınızın yüksek çözünürlüklü (minimum 300 DPI) olmasını öneriyoruz. Tasarımınız yoksa fikrinizi anlatmanız yeterli; grafik ekibimiz sizin için hazırlayabilir.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Ödeme nasıl yapılır?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 16l-6-6h12z"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Banka havalesi/EFT veya kapıda ödeme seçenekleri mevcuttur. Sipariş onayından sonra size IBAN bilgilerimizi iletiyoruz. Ödemeniz onaylandıktan sonra üretime başlanır.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Toplu siparişlerde indirim var mı?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 16l-6-6h12z"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Evet! 20 adet ve üzeri siparişlerde özel fiyat teklifi sunuyoruz. Kurumsal etkinlikler, okul organizasyonları ve düğün hediyeleri için toplu sipariş paketlerimiz mevcuttur. WhatsApp üzerinden adet bilgisi vererek teklif alabilirsiniz.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Ürün hasarlı gelirse ne yapmalıyım?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 16l-6-6h12z"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Kargo hasarı veya baskı hatası durumunda 24 saat içinde WhatsApp üzerinden fotoğraf göndermeniz yeterli. Sorunlu ürünü ücretsiz olarak yeniden üretip gönderiyoruz. Müşteri memnuniyeti bizim için önceliklidir.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">
+              <span>Baskı önizlemesi görebilir miyim?</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 16l-6-6h12z"/></svg>
+            </button>
+            <div class="faq-answer">
+              <p>Elbette! Her siparişte üretime geçmeden önce dijital baskı önizlemesi gönderiyoruz. Onayınız olmadan üretime başlamıyoruz. Böylece sonuçta tam istediğiniz gibi bir ürün almanızı garanti ediyoruz.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- İletişim CTA -->
+    <section class="cta-section" id="iletisim">
+      <div class="container">
+        <div class="cta-box">
+          <h2>Sipariş Vermeye Hazır mısınız?</h2>
+          <p>WhatsApp üzerinden bize ulaşın, size özel fiyat teklifi alalım. Ortalama yanıt süremiz 15 dakikadır.</p>
+          <div class="cta-contact-info">
+            <div class="cta-info-item">
+              <span>📱</span>
+              <div>
+                <strong>WhatsApp</strong>
+                <p>+90 555 123 45 67</p>
+              </div>
+            </div>
+            <div class="cta-info-item">
+              <span>📧</span>
+              <div>
+                <strong>E-posta</strong>
+                <p>info@baskiatolyesi.com</p>
+              </div>
+            </div>
+            <div class="cta-info-item">
+              <span>🕐</span>
+              <div>
+                <strong>Çalışma Saatleri</strong>
+                <p>Pzt–Cmt: 09:00 – 19:00</p>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn btn-whatsapp btn-lg" id="ctaWhatsapp">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Hemen WhatsApp'tan Yazın
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#" class="logo">
+          <span class="logo-icon">B</span>
+          <span class="logo-text">Baskı Atölyesi</span>
+        </a>
+        <p>2018'den beri kişiye özel baskı ürünlerinde güvenilir adresiniz. Kalite ve müşteri memnuniyeti önceliğimizdir.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Sayfalar</h4>
+        <ul>
+          <li><a href="#urunler">Ürünler</a></li>
+          <li><a href="#hakkimizda">Hakkımızda</a></li>
+          <li><a href="#yorumlar">Yorumlar</a></li>
+          <li><a href="#sss">SSS</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Ürünler</h4>
+        <ul>
+          <li><a href="#urunler">Kupa</a></li>
+          <li><a href="#urunler">Tişört</a></li>
+          <li><a href="#urunler">Kanvas Tablo</a></li>
+          <li><a href="#urunler">Sticker</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>İletişim</h4>
+        <p>WhatsApp: <a href="#" id="footerPhone">+90 555 123 45 67</a></p>
+        <p>E-posta: info@baskiatolyesi.com</p>
+        <p>Adres: İstanbul, Türkiye</p>
+      </div>
+    </div>
+    <div class="footer-bottom container">
+      <p>&copy; 2026 Baskı Atölyesi. Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <!-- Sabit WhatsApp Butonu (Masaüstü) -->
+  <a href="#" class="floating-whatsapp" id="floatingWhatsapp" aria-label="WhatsApp ile sipariş ver">
+    <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="floating-label">Sipariş Ver</span>
+  </a>
+
+  <!-- Mobil Sabit WhatsApp Çubuğu -->
+  <div class="mobile-whatsapp-bar" id="mobileWhatsappBar">
+    <a href="#" class="mobile-whatsapp-btn" id="mobileWhatsapp">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      WhatsApp ile Sipariş Ver
+    </a>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
